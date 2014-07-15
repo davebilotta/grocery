@@ -1,0 +1,60 @@
+#header {
+	
+}
+
+#list-region {
+	width: 20%;
+	float: left;
+	vertical-align: top;
+}
+
+#main-region {
+	width: 80%;
+	float: right;
+	vertical-align: top;
+}
+
+/* This is for an item in the main list */
+.main-item {
+	color: black;
+	list-style:none;
+}
+
+.main-item-selected {
+	color:gray;
+}
+
+.main-item, .main-item-selected {
+	cursor: pointer;
+}
+
+/* This is for an item in the shopping list */
+.list-item {
+	color: blue;
+	list-style: none;
+	cursor: pointer;
+	padding: 0px 0px 10px 0px;
+}
+
+.hover {
+	background-color:orange;
+	border:1px solid gray;
+	background-image: url('images/redx.png');
+}
+.main {
+	padding:0;
+/*	width:20%; */
+	float:left;
+	display:inline;
+	vertical-align: top;
+	text-align: left;
+}
+.region-header {
+	font-weight: bold;
+	color:orange;
+
+}
+
+body {
+	font-family: helvetica,verdana,arial,sans-serif;
+}
